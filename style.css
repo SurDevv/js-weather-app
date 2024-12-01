@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e7eff6;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.weather-app {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-current p, .weather-hourly div {
+    margin: 10px 0;
+}
+
+.weather-hourly div {
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
